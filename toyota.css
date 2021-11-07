@@ -48,3 +48,32 @@
   height: 300px;
   background-color: rgb(238, 236, 236);
 }
+
+.wrap-control_pic{
+  width: 700px;
+  height: 400px;
+  position: relative;
+}
+
+.wrap-control_pic img{
+  width: 100%;  
+}
+
+.btn{
+  width: 60px;
+  height: 40px;
+  background-color: rgb(167, 4, 4);
+  position: absolute;
+  top: 300px;
+  right: -5px;
+}
+
+.btn::after{
+  content: "";
+  border-left: 20px solid #fff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  position: absolute;
+  display: block;
+  margin: auto;
+}
