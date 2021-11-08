@@ -1,3 +1,6 @@
+.layout{
+  margin: auto;
+}
 /* 區塊1 */
 .wrap-control{
   /* width: 1200px; */
@@ -466,7 +469,7 @@
 
 .wrap-human_title{
   width: 350px;
-  top: 200px;
+  top: 240px;
   left: 750px;
   position: relative;
   z-index: 3;
@@ -498,7 +501,7 @@
 
 .wrap-human_title_down{
   width: 100%;
-  height: 170px;
+  height: 210px;
   background-color:black;
 }
 
@@ -521,7 +524,7 @@
 
 .wrap-human_deco{
   width: 510px;
-  height: 310px;
+  height: 360px;
   background-color: rgb(238, 236, 236);
   position: relative;
   left:400px;
@@ -535,7 +538,7 @@
   position: relative;
   z-index: 2;
   left: 150px;
-  bottom: 280px;
+  bottom: 330px;
 }
 
 .wrap-human_pic img{
@@ -609,4 +612,143 @@
 
 .dot{
   color: rgb(167, 4, 4);
+}
+
+/* 區塊5 */
+.wrap-pride{
+  /* width: 1200px; */
+  margin-top: 170px;
+  position: relative;
+}
+
+.wrap-pride_title{
+  width: 350px;
+  top: 170px;
+  left: 150px;
+  position: relative;
+  z-index: 3;
+}
+
+.wrap-pride_title_up{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(167, 4, 4);
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.wrap-pride_title_up h1{
+  font-size: 130px;
+  color:#fff;
+  display: flex;
+  flex-direction: row-reverse;
+  writing-mode: vertical-lr;
+}
+
+.wrap-pride_title_up p{
+  font-size: 50px;
+  color: #fff;;
+  display: flex;
+  align-items: center;
+}
+
+.wrap-pride_title_down{
+  width: 100%;
+  height: 170px;
+  background-color:black;
+}
+
+.wrap-pride_title_down h2{
+  color: #fff;
+  font-size: 27px;
+  font-weight:bolder;
+  margin-left: 10px;
+  padding: 20px 0 10px 10px;
+}
+
+.wrap-pride_title_down p{
+  color: #fff;
+  margin-left: 10px;
+  padding: 0px 1px 0px 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.wrap-pride_deco{
+  width: 500px;
+  height: 300px;
+  background-color: rgb(238, 236, 236);
+  position: relative;
+  left:600px;
+  bottom: 100px;
+  z-index: 1;
+}
+
+.wrap-pride_pic{
+  width: 700px;
+  height: 120px;
+  position: relative;
+  z-index: 2;
+  left: 300px;
+  bottom: 300px;
+}
+
+.wrap-pride_pic img{
+  width: 100%;  
+}
+
+.wrap-pride_pic_btn{
+  width: 60px;
+  height: 40px;
+  background-color: rgb(167, 4, 4);
+  position: absolute;
+  top: 250px;
+  right: -10px;
+}
+
+.triangle{
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  clip-path:polygon(0% 0%, 100% 50%, 0% 100%);
+  border: #000;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.wrap-pride_intro{
+  width: 700px;
+  padding: 20px 20px;
+  /* margin: auto; */
+  background-color: rgb(238, 236, 236);
+  position: absolute;
+  left: 150px;
+  z-index: 3;
+}
+
+.wrap-pride_intro h2{
+  display: inline-block;
+  font-size: 18px;
+  color: rgb(167, 4, 4);
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.wrap-pride_intro h2::after{
+  content: '';
+  display: inline-block;
+  height: 7px;
+  width: 500px;
+  border-top: rgb(167, 4, 4) solid 2px;
+}
+
+.wrap-pride_intro h3{
+  display: inline-block;
+  padding: 5px;
+  /* line-height: 30px; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 0.2em;
+  margin-bottom: 10px;
 }
