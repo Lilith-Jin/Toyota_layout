@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+.item{
+  padding: 50px 0px;
+}
+
 .title-group{
   width: 320px;
   background-color: red;
